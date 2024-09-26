@@ -1,8 +1,12 @@
 package baseball;
 
+import baseball.Controller.BaseballGameController;
+
 public class Application {
-    public static void main(String[] args) {
-        // TODO: 프로그램 구현
-        System.out.println("Hello");
+    public static void main(String[] args) throws IllegalAccessException {
+        BaseballGameController baseballGameController = new BaseballGameController();
+        baseballGameController.run();
     }
 }
+
+
